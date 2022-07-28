@@ -37,7 +37,7 @@ setup(
     author_email="141120108@smail.nju.edu",
     url="https://git.nju.edu.cn/gaaooh/magus",
     packages=find_packages(),
-    python_requires=">=3.8",
+    python_requires=">=3.7",
     install_requires=[
         "numpy<1.22.0",     # numba not support numpy >= 1.22.0
         "ase>=3.18",
